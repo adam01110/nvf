@@ -26,6 +26,7 @@
     ./snacks-nvim
     ./surround
     ./telescope
+    ./tv-nvim
     ./vim-wakatime
     ./yanky-nvim
     ./yazi-nvim

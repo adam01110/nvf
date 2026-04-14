@@ -506,4 +506,11 @@ https://github.com/gorbit99/codewindow.nvim
 - Allow `vim.treesitter.context.setupOpts.max_lines` to also be given as a
   string in order to allow percentage values like `"20%"`
 
+[Adam0](https://github.com/adam01110):
+
+[tv.nvim]: https://github.com/alexpasmantier/tv.nvim
+
+- Add [tv.nvim] plugin in `vim.utility.tv-nvim` with `enable`, `package`, and
+  `setupOpts`
+
 <!-- vim: set textwidth=80: -->

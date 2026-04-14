@@ -230,6 +230,7 @@ isMaximal: {
     utility = {
       ccc.enable = false;
       smart-paste-nvim.enable = false;
+      tv-nvim.enable = false;
       vim-wakatime.enable = false;
       diffview-nvim.enable = true;
       yanky-nvim.enable = false;

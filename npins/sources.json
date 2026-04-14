@@ -2925,6 +2925,19 @@
       "url": "https://github.com/dmmulroy/ts-error-translator.nvim/archive/558abff11b9e8f4cefc0de09df780c56841c7a4b.tar.gz",
       "hash": "sha256-kjZwfvb0B7GC4dBBSdgC/zRmCUCfCm4H5J+8SFzANJ4="
     },
+    "tv-nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "alexpasmantier",
+        "repo": "tv.nvim"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "4b156a22c89b50d922a916cc0453762854ac082f",
+      "url": "https://github.com/alexpasmantier/tv.nvim/archive/4b156a22c89b50d922a916cc0453762854ac082f.tar.gz",
+      "hash": "sha256-367qx5an+zmNvWln9pCzPrn2KnqQCYH2sC8+LBo8Epk="
+    },
     "typst-concealer": {
       "type": "Git",
       "repository": {

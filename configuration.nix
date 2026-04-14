@@ -232,6 +232,7 @@ isMaximal: {
       smart-paste-nvim.enable = false;
       guess-indent-nvim.enable = false;
       auto-indent-nvim.enable = false;
+      tv-nvim.enable = false;
       vim-wakatime.enable = false;
       diffview-nvim.enable = true;
       yanky-nvim.enable = false;

@@ -509,7 +509,10 @@ https://github.com/gorbit99/codewindow.nvim
 [Adam0](https://github.com/adam01110):
 
 [cord.nvim]: https://github.com/vyfor/cord.nvim
+[satellite.nvim]: https://github.com/lewis6991/satellite.nvim
 
 - Add [cord.nvim] plugin in `vim.presence.cord` with `enable` and `setupOpts`
+- Add [satellite.nvim] plugin in `vim.visuals.satellite-nvim` with `enable` and
+  `setupOpts`
 
 <!-- vim: set textwidth=80: -->

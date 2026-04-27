@@ -18,6 +18,7 @@ in {
     ./nvim-scrollbar
     ./nvim-web-devicons
     ./rainbow-delimiters
+    ./twilight-nvim
     ./tiny-devicons-auto-colors
     ./syntax-gaslighting
   ];

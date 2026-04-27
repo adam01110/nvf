@@ -293,6 +293,7 @@ isMaximal: {
 
     presence = {
       neocord.enable = false;
+      cord-nvim.enable = false;
     };
   };
 }

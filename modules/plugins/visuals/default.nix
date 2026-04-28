@@ -10,6 +10,7 @@ in {
     ./blink-indent
     ./cellular-automaton
     ./cinnamon-nvim
+    ./dropbar-nvim
     ./fidget-nvim
     ./highlight-undo
     ./hlargs-nvim

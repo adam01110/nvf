@@ -509,10 +509,13 @@ https://github.com/gorbit99/codewindow.nvim
 [Adam0](https://github.com/adam01110):
 
 [cord.nvim]: https://github.com/vyfor/cord.nvim
+[dropbar.nvim]: https://github.com/Bekaboo/dropbar.nvim
 [satellite.nvim]: https://github.com/lewis6991/satellite.nvim
 [twilight.nvim]: https://github.com/folke/twilight.nvim
 
 - Add [cord.nvim] plugin in `vim.presence.cord` with `enable` and `setupOpts`
+- Add [dropbar.nvim] plugin in `vim.visuals.dropbar-nvim` with `enable` and
+  `setupOpts`
 - Add [satellite.nvim] plugin in `vim.visuals.satellite-nvim` with `enable` and
   `setupOpts`
 - Add [twilight.nvim] plugin in `vim.visuals.twilight-nvim` with `enable` and

@@ -6,6 +6,7 @@
     ./direnv
     ./fzf-lua
     ./gestures
+    ./guess-indent-nvim
     ./harpoon
     ./icon-picker
     ./images

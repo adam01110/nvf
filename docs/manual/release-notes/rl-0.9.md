@@ -506,4 +506,11 @@ https://github.com/gorbit99/codewindow.nvim
 - Allow `vim.treesitter.context.setupOpts.max_lines` to also be given as a
   string in order to allow percentage values like `"20%"`
 
+[Adam0](https://github.com/adam01110):
+
+[guess-indent.nvim]: https://github.com/NMAC427/guess-indent.nvim
+
+- Add [guess-indent.nvim] plugin in `vim.utility.guess-indent-nvim` with
+  `enable` and `setupOpts`
+
 <!-- vim: set textwidth=80: -->

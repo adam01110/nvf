@@ -510,12 +510,15 @@ https://github.com/gorbit99/codewindow.nvim
 
 [cord.nvim]: https://github.com/vyfor/cord.nvim
 [dropbar.nvim]: https://github.com/Bekaboo/dropbar.nvim
+[guess-indent.nvim]: https://github.com/NMAC427/guess-indent.nvim
 [satellite.nvim]: https://github.com/lewis6991/satellite.nvim
 [twilight.nvim]: https://github.com/folke/twilight.nvim
 
 - Add [cord.nvim] plugin in `vim.presence.cord` with `enable` and `setupOpts`
 - Add [dropbar.nvim] plugin in `vim.visuals.dropbar-nvim` with `enable` and
   `setupOpts`
+- Add [guess-indent.nvim] plugin in `vim.utility.guess-indent-nvim` with
+  `enable` and `setupOpts`
 - Add [satellite.nvim] plugin in `vim.visuals.satellite-nvim` with `enable` and
   `setupOpts`
 - Add [twilight.nvim] plugin in `vim.visuals.twilight-nvim` with `enable` and

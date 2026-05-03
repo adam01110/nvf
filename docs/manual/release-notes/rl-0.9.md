@@ -508,12 +508,15 @@ https://github.com/gorbit99/codewindow.nvim
 
 [Adam0](https://github.com/adam01110):
 
+[auto-indent.nvim]: https://github.com/VidocqH/auto-indent.nvim
 [cord.nvim]: https://github.com/vyfor/cord.nvim
 [dropbar.nvim]: https://github.com/Bekaboo/dropbar.nvim
 [guess-indent.nvim]: https://github.com/NMAC427/guess-indent.nvim
 [satellite.nvim]: https://github.com/lewis6991/satellite.nvim
 [twilight.nvim]: https://github.com/folke/twilight.nvim
 
+- Add [auto-indent.nvim] plugin in `vim.utility.auto-indent-nvim` with
+  `enable` and `setupOpts`
 - Add [cord.nvim] plugin in `vim.presence.cord` with `enable` and `setupOpts`
 - Add [dropbar.nvim] plugin in `vim.visuals.dropbar-nvim` with `enable` and
   `setupOpts`

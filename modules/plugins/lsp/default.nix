@@ -11,6 +11,7 @@
     ./null-ls
 
     # lsp plugins
+    ./copilot-lsp
     ./lspsaga
     ./trouble
     ./lsp-signature

@@ -7,6 +7,7 @@
   inherit (lib.modules) mkIf;
 
   cfg = config.vim.assistant.copilot;
+  nesEnabled = cfg.setupOpts.nes.enabled && config.vim.lsp.copilot-lsp.nes.enable;
 
   wrapPanelBinding = luaFunction: key: ''
     function()
@@ -33,7 +34,12 @@ in {
         copilot-lua = {
           package = "copilot-lua";
           setupModule = "copilot";
-          inherit (cfg) setupOpts;
+          setupOpts =
+            cfg.setupOpts
+            // {
+              nes = cfg.setupOpts.nes // {enabled = nesEnabled;};
+            };
+          before = mkIf (nesEnabled && config.vim.lazy.enable) "require('lz.n').trigger_load('copilot-lsp')";
           after = mkIf cfg.cmp.enable "require('copilot_cmp').setup()";
 
           event = [
@@ -66,6 +72,11 @@ in {
       autocomplete.nvim-cmp = {
         sources = {copilot = "[Copilot]";};
         sourcePlugins = ["copilot-cmp"];
+      };
+
+      lsp.copilot-lsp = {
+        enable = mkIf nesEnabled true;
+        server.enable = false;
       };
 
       # Disable plugin handled keymaps.

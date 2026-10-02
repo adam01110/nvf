@@ -6,5 +6,6 @@
     ./supermaven-nvim
     ./avante
     ./neocodeium
+    ./cursortab
   ];
 }

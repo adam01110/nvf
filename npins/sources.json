@@ -478,6 +478,22 @@
       "url": "https://github.com/hat0uma/csvview.nvim/archive/2466bdda54047f525d4faca53040fe657c9c33db.tar.gz",
       "hash": "sha256-2Ew1TPEiTIoMpQwSQSTVLadLuvXMzn24XXiAxGRjL5c="
     },
+    "cursortab-nvim": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "cursortab",
+        "repo": "cursortab.nvim"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v0.8.0",
+      "revision": "6c51b98c8687edb536ade9eba47b3ae04974cf4e",
+      "url": "https://api.github.com/repos/cursortab/cursortab.nvim/tarball/refs/tags/v0.8.0",
+      "hash": "sha256-Y+q1NnQairgRE4lSbQ7pQn52ncobbRUmG7YuwbilDhY="
+    },
     "dashboard-nvim": {
       "type": "Git",
       "repository": {

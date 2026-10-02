@@ -11,6 +11,7 @@
     ./ccls.nix
     ./clangd.nix
     ./clojure-lsp.nix
+    ./copilot-language-server.nix
     ./csharp_ls.nix
     ./cue.nix
     ./dart.nix

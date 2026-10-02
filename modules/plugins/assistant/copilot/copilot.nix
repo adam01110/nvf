@@ -52,6 +52,8 @@ in {
         };
       };
 
+      nes.enabled = mkEnableOption "experimental next edit suggestions via copilot-lsp";
+
       suggestion = {
         enabled = mkEnableOption "Suggestions" // {default = !cfg.cmp.enable;};
         # keymap = { };

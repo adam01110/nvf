@@ -381,6 +381,19 @@
       "url": "https://github.com/zbirenbaum/copilot-cmp/archive/15fc12af3d0109fa76b60b5cffa1373697e261d1.tar.gz",
       "hash": "sha256-erRL8bY/zuwuCZfttw+avTrFV7pjv2H6v73NzY2bymM="
     },
+    "copilot-lsp": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "copilotlsp-nvim",
+        "repo": "copilot-lsp"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "1b6d8273594643f51bb4c0c1d819bdb21b42159d",
+      "url": "https://github.com/copilotlsp-nvim/copilot-lsp/archive/1b6d8273594643f51bb4c0c1d819bdb21b42159d.tar.gz",
+      "hash": "sha256-wb6WpIMUggHjUKEI++pRgg53vyiuwEZQmYWEN7sev3M="
+    },
     "copilot-lua": {
       "type": "Git",
       "repository": {
